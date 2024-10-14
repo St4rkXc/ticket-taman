@@ -1,3 +1,38 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components{
+   .devider{
+      height: 1px;
+      width: 120px;
+      background-color: white;
+      border-radius: 32px;
+      display: inline-block;
+   }
+   .devider-white{
+      height: 1px;
+      width: 120px;
+      background-color: #272727;
+      border-radius: 32px;
+      display: inline-block;
+   }
+   .btn-primary{
+      @apply px-[32px] py-[12px] text-text bg-primary font-semibold
+   }
+   .btn-secondary{
+      @apply px-[32px] py-[12px] text-white border border-primary font-semibold
+   }
+
+   .my-input{
+      /* @apply border-b-2 border-b-black pb-6 pl-3 placeholder:text-black placeholder:font-semibold placeholder:font-base */
+      border-bottom: 2px solid black;
+      padding-bottom: 24px;
+      padding-left: 12px;
+   }
+   .my-input::placeholder{
+      color: black;
+      font-weight: 600;
+      font-size: 20px;
+   }
+}
