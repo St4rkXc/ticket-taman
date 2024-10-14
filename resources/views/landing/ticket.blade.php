@@ -9,8 +9,8 @@
             <p class="text-xs text-white font-semibold">Taman Kita</p>
             <div class="devider"></div>
          </div>
-         <h1 class="text-3xl font-bold text-white ">Book<span class="text-primary">Ticket</span></h1>
-         <p class="text-white font-normal text-base mt-8 max-w-[75%] mx-auto">Welcome to the Family Play Zone: Where Adventure and Imagination Unite for Endless Fun and Laughter</p>
+         <h1 class="text-3xl font-bold text-white ">Book<span class="text-primary"> Ticket</span></h1>
+         <p class="text-white font-normal text-base mt-8 max-w-[75%] mx-auto">Welcome to the Family Play Zone, Where Adventure and Imagination Unite for Endless Fun and Laughter</p>
       </div>
    </div>
 </header>

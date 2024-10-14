@@ -37,9 +37,7 @@
       padding-left: 12px;
    }
    .my-input::placeholder{
-      color: black;
-      font-weight: 600;
-      font-size: 20px;
+      @apply text-text font-semibold text-xs md:text-base
    }
 }
 

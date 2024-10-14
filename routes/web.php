@@ -20,8 +20,13 @@ Route::get('/', function () {
 Route::get('/dashboard', function () {
     return view('dashboard.index');
 });
+
 Route::get('/confirmation', function () {
     return view('landing.ticket');
+});
+
+Route::get('/ticket-record', function () {
+    return view('landing.record');
 });
 
 
