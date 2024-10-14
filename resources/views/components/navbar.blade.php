@@ -1,7 +1,7 @@
 <div>
     <!-- The whole future lies in uncertainty: live immediately. - Seneca -->
-    <nav class="fixed bg-transparent w-full z-50 ">
-        <div class="flex justify-between container mx-auto py-3 px-4 left-auto ">
+    <nav class="fixed bg-transparent w-full z-50 my-navbar duration-500 ">
+        <div class="flex justify-between container mx-auto py-6 px-4 left-auto ">
             <div class="flex items-center space-x-4">
                 <p class="text-base text-white font-semibold inline">Taman Kita</p>
             </div>

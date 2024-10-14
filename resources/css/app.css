@@ -20,8 +20,14 @@
    .btn-primary{
       @apply px-[32px] py-[12px] text-text bg-primary font-semibold
    }
+   .btn-primary:hover{
+      @apply bg-[#B8FF4D] duration-200 ease-linear
+   }
    .btn-secondary{
       @apply px-[32px] py-[12px] text-white border border-primary font-semibold
+   }
+   .btn-secondary:hover{
+      @apply bg-primary text-black duration-200 ease-linear
    }
 
    .my-input{
@@ -35,4 +41,8 @@
       font-weight: 600;
       font-size: 20px;
    }
+}
+
+input:focus{
+   outline: none;
 }

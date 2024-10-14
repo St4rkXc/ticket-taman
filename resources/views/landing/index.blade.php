@@ -1,5 +1,6 @@
 @extends('layouts.app')
 @section('content')
+<x-navbar></x-navbar>
 <header class="w-full h-screen  relative">
    <div class="relative w-full h-full flex justify-center items-center space-y-5" style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url({{ asset('Images/Hero.jpg') }}) center center / cover no-repeat;">
       <div class="text-center">
@@ -8,7 +9,7 @@
             <p class="text-xs text-white font-semibold">Taman Kita</p>
             <div class="devider"></div>
          </div>
-         <h1 class="text-3xl font-bold text-white ">Gateway to <span class="text-primary">Fun !</span></h1>
+         <h1 class="text-3xl font-bold text-white ">Gateway to <span class="text-primary">Fun!</span></h1>
          <p class="text-white font-normal text-base mt-8 max-w-[75%] mx-auto">Experience a world of fun, excitement, and unforgettable memories as you explore every corner of Taman Kita, where adventure and joy await around every turn!</p>
          <div class="flex gap-[16px] mt-8 mx-auto justify-center">
             <a href="#" class="btn-primary">Book Ticket</a>
@@ -17,7 +18,9 @@
       </div>
    </div>
 </header>
-<section class="bg-text" id="About Us">
+
+{{-- * About Us  --}}
+<section class="bg-text" id="About Us"> 
    <div class="container py-[100px] mx-auto">
       <div class="flex justify-between"> {{-- Heading --}}
          <div class="w-fit">
@@ -65,15 +68,17 @@
       </div>
    </div>
 </section>
+
+{{-- * Gallery --}}
 <section id="gallery">
    <div class="container mx-auto py-[100px]">
       <div class="text-center">
          <div class="flex justify-center items-center space-x-5">
             <div class="devider-white"></div>
-            <p class="text-xs font-semibold">Gallery</p>
+            <p class="text-xs font-semibold text-text">Gallery</p>
             <div class="devider-white"></div>
          </div>
-         <p class="text-2xl font-bold">Image Gallery</p>
+         <p class="text-2xl font-bold text-text">Image Gallery</p>
       </div>
       <div class="grid grid-cols-4 gap-5 mt-[56px] ">
          <div class="h-[369px] group relative" style="background:url({{ asset('Images/Book.jpg') }}) center center / cover no-repeat; ">
@@ -132,8 +137,8 @@
       <div class="flex gap-16 justify-between">
          <div>
             <div>
-               <h1 class="text-2xl font-bold">Lets Book Your Ticket</h1>
-               <p class="text-xs">Don't miss out on the adventure of a lifetime! Secure your tickets today and get ready to experience the excitement, fun, and unforgettable memories that await you at Taman Kita!</p>
+               <h1 class="text-2xl font-bold text-text">Lets Book Your Ticket</h1>
+               <p class="text-xs text-text">Don't miss out on the adventure of a lifetime! Secure your tickets today and get ready to experience the excitement, fun, and unforgettable memories that await you at Taman Kita!</p>
             </div>
             <form class="mt-10 space-y-10">
                <input type="text" class="w-full my-input" placeholder="Name">
@@ -153,8 +158,17 @@
 </section >
 
 <section id="CTA">
-   
+   <div class="flex justify-center flex-col items-center h-[500px]" style="background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url({{ asset('Images/CTA.jpg') }}) center center / cover no-repeat;">
+      <p class="text-[64px] font-bold text-white">Get Your Ticket <span class="text-primary">Now</span></p>
+      <p class="text-base text-white">
+         Don't Miss Out on the Fun! Secure Your Spot for an Unforgettable Experience at Taman Kita!
+      </p>
+      <a href="#" class="btn-primary mt-8">Book Ticket</a>
+      
+   </div>
 </section>
+
+<x-bottom-nav></x-bottom-nav>
 
 <script>
    const dateInput = document.getElementById('customDate');

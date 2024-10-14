@@ -9,7 +9,7 @@ export default {
         extend: {
             colors: {
                 primary: "#D1FA94",
-                Secondary: "#272727",
+                secondary: "#272727",
                 text: "#212122",
             },
             fontSize: {
