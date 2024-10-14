@@ -18,6 +18,8 @@ export default {
                 xl: "24px",
                 "2xl": "48px",
                 "3xl": "128px",
+                price:"40px",
+                pricexl:"64px",
             },
         },
     },

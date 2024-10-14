@@ -132,6 +132,8 @@
       </div>
    </div>
 </section>
+
+{{-- *Book --}}
 <section id="Book">
    <div class="container mx-auto py-[100px]">
       <div class="flex gap-16 justify-between">
@@ -144,10 +146,10 @@
                <input type="text" class="w-full my-input" placeholder="Name">
                <div class="flex gap-4">
                   <input type="text" class="my-input w-full" placeholder="18+ Ages">
-                  <input type="text" class="my-input w-full" placeholder="18+ Ages">
+                  <input type="text" class="my-input w-full" placeholder="0-18 Ages">
                </div>
                <input type="text" id="customDate" class="my-input w-full" placeholder="Booking Time">
-               <button type="submit" class="btn-primary block w-fit mt-12 font-bold">Book Ticket</button>
+               <button type="submit" class="btn-primary block w-fit mt-12 font-bold"><a href="/confirmation">Book Ticket</a></button>
             </form>
          </div>
          <div class="h-[600px]">

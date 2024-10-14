@@ -6,7 +6,7 @@
                 <p class="text-base text-white font-semibold inline">Taman Kita</p>
             </div>
             <div class="Flex space-x-8">
-                <a href="#" class="font-semibold text-white">Home</a>
+                <a href="/" class="font-semibold text-white">Home</a>
                 <a href="#" class="font-semibold text-white">Facility</a>
                 <a href="#" class="font-semibold text-white">Gallery</a>
                 <a href="#" class="font-semibold text-white">Ticket</a>
