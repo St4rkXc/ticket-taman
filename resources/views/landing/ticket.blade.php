@@ -52,7 +52,7 @@
                   </div>
                </div>
             </div>
-            <div class="space-y-8 mt-4 lg:mt-0">
+            <div class="space-y-4 mt-4 p-3 lg:mt-0">
                <a class="btn-primary w-full block text-center" href="/ticket-record">Book Ticket</a>
                <a class="btn-secondary w-full text-text block text-center" href="/">Cancel Booking</a>
             </div>
