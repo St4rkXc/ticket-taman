@@ -25,5 +25,6 @@
     @yield('content')
 </body>
 @vite('resources/js/app.js')
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
 </html>
