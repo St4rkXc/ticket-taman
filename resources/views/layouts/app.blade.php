@@ -15,26 +15,15 @@
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+<style>
+    html{
+        scroll-behavior: smooth
+    }
+</style>
 
 <body>
     @yield('content')
 </body>
-<script>
-    function userScroll() {
-  const navbar = document.querySelector('.my-navbar');
+@vite('resources/js/app.js')
 
-  window.addEventListener('scroll', () => {
-    if (window.scrollY > 50) {
-        navbar.classList.remove('bg-transparent');
-        navbar.classList.add('bg-text');
-    } else {
-        navbar.classList.remove('bg-text');
-        navbar.classList.add('bg-transparent');
-    }
-  });
-}
-
-document.addEventListener('DOMContentLoaded', userScroll);
-
-</script>
 </html>

@@ -11,7 +11,7 @@
          </div>
          <h1 class="text-price md:text-pricexl lg:text-3xl font-bold text-white ">Gateway to <span class="text-primary">Fun!</span></h1>
          <p class="text-white font-normal text-xs  md:text-base mt-8 max-w-[75%] mx-auto">Experience a world of fun, excitement, and unforgettable memories as you explore every corner of Taman Kita, where adventure and joy await around every turn!</p>
-         <div class="flex flex-col gap-[16px] mt-8 mx-auto justify-center items-center">
+         <div class="flex flex-col md:flex-row gap-[16px] mt-8 mx-auto justify-center items-center">
             <a href="#" class="btn-primary w-fit">Book Ticket</a>
             <a href="#" class="btn-secondary w-fit">See Facility</a>
          </div>
@@ -20,14 +20,14 @@
 </header>
 
 {{-- * About Us  --}}
-<section class="bg-text" id="About Us"> 
+<section class="bg-text" id="about"> 
    <div class="container py-[100px] mx-auto px-8 md:px-4 lg:px-0">
       <div class="flex flex-col lg:flex-row justify-between"> {{-- Heading --}}
          <div class="w-fit ">
             <div class="flex flex-col md:flex-row items-center gap-5 justify-center lg:justify-start mb-4 md:mb-0">
                <div class="devider hidden md:inline-block"></div>
                <p class=" text-xxs md:text-xs text-white font-semibold">About Us</p>
-               <div class="devider block md:inline-block mt-2 md:mt-0"></div>
+               <div class="devider block md:inline-block lg:hidden mt-2 md:mt-0"></div>
             </div>
             <p class="text-[32px] md:text-2xl font-semibold text-white text-center lg:text-start">Top-Notch Facilities for Your Ultimate Comfort and Enjoyment!</p>
          </div>
@@ -82,49 +82,49 @@
          <p class=" text-[32px] md:text-2xl font-bold text-text">Image Gallery</p>
       </div>
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 mt-[56px] px-10 lg:p-0 ">
-         <div class="h-[369px] group relative" style="background:url({{ asset('Images/Book.jpg') }}) center center / cover no-repeat; ">
+         <div class=" h-[260px] md:h-[369px] group relative" style="background:url({{ asset('Images/Book.jpg') }}) center center / cover no-repeat; ">
             <div class="absolute bottom-0 w-full bg-black/50 p-2 px-4 opacity-0 group-hover:opacity-100 duration-300">
                <p class="text-white text-xs ">Bloom Garden</p>
                <p class="text-white text-[12px]">Central Park</p>
             </div>
          </div>
-         <div class="h-[369px] group relative" style="background:url({{ asset('Images/Gallery-2.jpg') }}) center center / cover no-repeat; ">
+         <div class="h-[260px] md:h-[369px] group relative" style="background:url({{ asset('Images/Gallery-2.jpg') }}) center center / cover no-repeat; ">
             <div class="absolute bottom-0 w-full bg-black/50 p-2 px-4 opacity-0 group-hover:opacity-100 duration-300">
                <p class="text-white text-xs ">Aider Lake</p>
                <p class="text-white text-[12px]">Central Park</p>
             </div>
          </div>
-         <div class="h-[369px] group relative" style="background:url({{ asset('Images/Gallery-3.jpg') }}) center center / cover no-repeat; ">
+         <div class="h-[260px] md:h-[369px] group relative" style="background:url({{ asset('Images/Gallery-3.jpg') }}) center center / cover no-repeat; ">
             <div class="absolute bottom-0 w-full bg-black/50 p-2 px-4 opacity-0 group-hover:opacity-100 duration-300">
                <p class="text-white text-xs ">Children Playground</p>
                <p class="text-white text-[12px]">Entier Areas</p>
             </div>
          </div>
-         <div class="h-[369px] group relative" style="background:url({{ asset('Images/Gallery-4.jpg') }}) center center / cover no-repeat; ">
+         <div class="h-[260px] md:h-[369px] group relative" style="background:url({{ asset('Images/Gallery-4.jpg') }}) center center / cover no-repeat; ">
             <div class="absolute bottom-0 w-full bg-black/50 p-2 px-4 opacity-0 group-hover:opacity-100 duration-300">
                <p class="text-white text-xs ">Children Playground</p>
                <p class="text-white text-[12px]">Entier Areas</p>
             </div>
          </div>
-         <div class="h-[369px] group relative" style="background:url({{ asset('Images/Gallery-5.jpg') }}) center center / cover no-repeat; ">
+         <div class="h-[260px] md:h-[369px] group relative" style="background:url({{ asset('Images/Gallery-5.jpg') }}) center center / cover no-repeat; ">
             <div class="absolute bottom-0 w-full bg-black/50 p-2 px-4 opacity-0 group-hover:opacity-100 duration-300">
                <p class="text-white text-xs ">Children Playground</p>
                <p class="text-white text-[12px]">Central Park</p>
             </div>
          </div>
-         <div class="h-[369px] group relative" style="background:url({{ asset('Images/Gallery-6.jpg') }}) center center / cover no-repeat; ">
+         <div class="h-[260px] md:h-[369px] group relative" style="background:url({{ asset('Images/Gallery-6.jpg') }}) center center / cover no-repeat; ">
             <div class="absolute bottom-0 w-full bg-black/50 p-2 px-4 opacity-0 group-hover:opacity-100 duration-300">
                <p class="text-white text-xs ">Children Playground</p>
                <p class="text-white text-[12px]">Central Park</p>
             </div>
          </div>
-         <div class="h-[369px] group relative" style="background:url({{ asset('Images/Gallery-7.jpg') }}) center center / cover no-repeat; ">
+         <div class="h-[260px] md:h-[369px] group relative" style="background:url({{ asset('Images/Gallery-7.jpg') }}) center center / cover no-repeat; ">
             <div class="absolute bottom-0 w-full bg-black/50 p-2 px-4 opacity-0 group-hover:opacity-100 duration-300">
                <p class="text-white text-xs ">Children Playground</p>
                <p class="text-white text-[12px]">Front Wayt</p>
             </div>
          </div>
-         <div class="h-[369px] group relative" style="background:url({{ asset('Images/Gallery-8.jpg') }}) center center / cover no-repeat; ">
+         <div class="h-[260px] md:h-[369px] group relative" style="background:url({{ asset('Images/Gallery-8.jpg') }}) center center / cover no-repeat; ">
             <div class="absolute bottom-0 w-full bg-black/50 p-2 px-4 opacity-0 group-hover:opacity-100 duration-300">
                <p class="text-white text-xs ">Luki Guis</p>
                <p class="text-white text-[12px]">Front Wayt</p>
@@ -135,7 +135,7 @@
 </section>
 
 {{-- *Book --}}
-<section id="Book">
+<section id="book">
    <div class="container mx-auto py-[100px] px-10 lg:px-0">
       <div class="flex flex-col-reverse lg:flex-row gap-16 justify-normal md:justify-between">
          <div>
@@ -153,7 +153,7 @@
                <button type="submit" class="btn-primary block w-fit mt-12 font-bold"><a href="/confirmation">Book Ticket</a></button>
             </form>
          </div>
-         <div class="h-[600px]">
+         <div class="h-[300px] lg:h-[600px]">
             <img src="{{asset('Images/Book.jpg')}}" alt="" class="h-full  object-cover" ">
          </div>
       </div>
