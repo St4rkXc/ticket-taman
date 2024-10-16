@@ -11,6 +11,7 @@ export default {
                 primary: "#D1FA94",
                 secondary: "#272727",
                 text: "#212122",
+                white: "#f5f6f6"
             },
             fontSize: {
                 xxs: "14px",
