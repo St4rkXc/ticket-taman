@@ -60,12 +60,12 @@
                      <div>
                         <p class="text-white text-base font-bold leading-none">Renault Scadia</p> {{-- Taaruh data nama di sini --}}
                         <div class="flex gap-2 mt-2">
-                           <p class="text-xxs font-semibold text-white/80  sm:hidden">12 May, 2024</p>
+                           <p class="text-xxs font-semibold text-white/80  sm:hidden">12 May, 2024</p>  {{-- Isi data tanggal di sini --}}
                            <p class="text-xxs font-light text-white hidden sm:block">Child : <span class="font-bold">3</span></p> {{-- Taaruh data tiket di sini --}}
                            <p class="text-xxs font-light text-white hidden sm:block">Adult : <span class="font-bold">3</span></p> {{-- Taaruh data tiket di sini --}}
                         </div>
                      </div>
-                     <p class="text-white text-base font-bold leading-none hidden sm:block ">12 May, 2024</p>
+                     <p class="text-white text-base font-bold leading-none hidden sm:block ">12 May, 2024</p>  {{-- Taaruh data tanggal di sini --}}
                   </li>
                   <li class="flex justify-between items-center py-4 border-b border-b-white/20">
                      <div>
