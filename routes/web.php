@@ -1,32 +1,26 @@
 <?php
-
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\TicketBookingController;
 
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider and all of them will
-| be assigned to the "web" middleware group. Make something great!
-|
-*/
+// Route for booking tickets
+Route::post('/book-ticket', [TicketBookingController::class, 'store'])->name('ticket.store');
 
+// Landing page route
 Route::get('/', function () {
     return view('landing.index');
 });
 
+// Dashboard route
 Route::get('/dashboard', function () {
     return view('dashboard.index');
 });
 
+// Confirmation page route
 Route::get('/confirmation', function () {
     return view('landing.ticket');
 });
 
+// Ticket record page route
 Route::get('/ticket-record', function () {
     return view('landing.record');
 });
-
-
