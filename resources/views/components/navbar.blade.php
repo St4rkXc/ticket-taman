@@ -1,32 +1,37 @@
 <div>
-    <!-- The whole future lies in uncertainty: live immediately. - Seneca -->
-    <nav class="fixed bg-transparent w-full z-50 my-navbar duration-500 ">
-        <div class="relative">
-            <div class="flex justify-between container mx-auto py-6 px-4 left-auto relative ">
-                <div class="flex items-center space-x-4">
-                    <p class="text-base text-white font-semibold inline">Taman Kita</p>
-                </div>
-                <div class="Flex space-x-8 hidden md:block">
-                    <a href="/" class="font-semibold text-white">Home</a>
-                    <a href="#about" class="font-semibold text-white">About</a>
-                    <a href="#gallery" class="font-semibold text-white">Gallery</a>
-                    <a href="#book" class="font-semibold text-white">Ticket</a>
-                </div>
-                <div class="block md:hidden">
-                    <i class="fa-solid fa-bars text-white menu"></i>
-                </div>
-            </div>
-            <div class="absolute text-white bottom-[100] left-[100]  duration-300 py-12 px-4 bg-text w-full h-screen opacity-0 hidden mobilenav">
-                <div class="flex flex-col items-center space-y-8">
-                    <a href="/" class="font-semibold text-white">Home</a>
-                    <div class="devider w-full opacity-30"></div>
-                    <a href="#about" class="font-semibold text-white">About</a>
-                    <div class="devider w-full opacity-30"></div>
-                    <a href="#gallery" class="font-semibold text-white">Gallery</a>
-                    <div class="devider w-full opacity-30"></div>
-                    <a href="#book" class="font-semibold text-white">Ticket</a>
-                </div>
-            </div>
-        </div>
-    </nav>
+   <!-- The whole future lies in uncertainty: live immediately. - Seneca -->
+	<nav class="fixed w-screen z-40">
+		<div class="navbar bg-transparent container  mx-auto w-screen ">
+			<div class="navbar-start">
+				
+				<a class="text-white text-xl ml-5 font-bold">Taman Kita</a>
+			</div>
+			<div class="navbar-end flex space-x-5">
+				<a class="hidden lg:block text-white">Item 1</a>
+				<a class="hidden lg:block text-white">Item 2</a>
+				<a class="hidden lg:block text-white">Item 3</a>
+				<div class="dropdown dropdown-end">
+					<div tabindex="0" role="button" class="btn btn-primary text-text lg:hidden">
+						<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+							stroke="currentColor">
+							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+						</svg>
+					</div>
+					<ul tabindex="0"
+						class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-72  p-2 shadow space-y-2">
+						<li><a>Item 1</a></li>
+						<li>
+							<a>Parent</a>
+							<ul class="p-2">
+								<li><a>Submenu 1</a></li>
+								<li><a>Submenu 2</a></li>
+							</ul>
+						</li>
+						<li><a>Item 3</a></li>
+						<li><a class="btn btn-primary">Ayam</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</nav>
 </div>
