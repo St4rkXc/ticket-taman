@@ -41,6 +41,10 @@
    }
 }
 
+input{
+   background: transparent !important;
+}
+
 input:focus{
    outline: none;
 }
