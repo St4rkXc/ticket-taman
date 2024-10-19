@@ -12,8 +12,8 @@
          <h1 class="text-price md:text-pricexl lg:text-3xl font-bold text-white ">Gateway to <span class="text-primary">Fun!</span></h1>
          <p class="text-white font-normal text-xs  md:text-base mt-8 max-w-[75%] mx-auto">Experience a world of fun, excitement, and unforgettable memories as you explore every corner of Taman Kita, where adventure and joy await around every turn!</p>
          <div class="flex flex-col md:flex-row gap-[16px] mt-8 mx-auto justify-center items-center">
-            <a href="#" class="btn-primary w-fit">Book Ticket</a>
-            <a href="#" class="btn-secondary w-fit">See Facility</a>
+            <a href="#book" class="btn-primary w-fit">Book Ticket</a>
+            <a href="#gallery" class="btn-secondary w-fit">See Facility</a>
          </div>
       </div>
    </div>
