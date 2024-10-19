@@ -6,8 +6,8 @@
 				
 				<a class="text-white text-xl ml-5 font-bold">Taman Kita</a>
 			</div>
-			<div class="navbar-end flex space-x-5">
-				<a class="hidden lg:block text-white" href="/">Home</a>
+			<div class="navbar-end flex space-x-6">
+				<a class="hidden lg:block text-white font-semibold" href="/">Home</a>
 				<a class="hidden lg:block text-white" href="#about">About</a>
 				<a class="hidden lg:block text-white" href="#gallery">Gallery</a>
 				<a class="hidden lg:block text-white" href="#book">Ticket</a>
