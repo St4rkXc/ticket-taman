@@ -179,7 +179,7 @@
    // Optional: Customize the display or force the value format
    dateInput.addEventListener('focus', () => (dateInput.type = 'date'));
    dateInput.addEventListener('blur', () => {
-     if (!dateInput.value) dateInput.type = 'text';
+      if (!dateInput.value) dateInput.type = 'text';
    });
  </script>
 @endsection
