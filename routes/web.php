@@ -1,32 +1,18 @@
 <?php
-
+use App\Http\Controllers\BookingController;
+use App\Http\Controllers\ConfirmationController;
+use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\RecordController;
 use Illuminate\Support\Facades\Route;
 
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider and all of them will
-| be assigned to the "web" middleware group. Make something great!
-|
-*/
 
-Route::get('/', function () {
-    return view('landing.index');
-});
+//BOOKING SECTION
+Route::get('/', [BookingController::class , 'index']);
 
-Route::get('/dashboard', function () {
-    return view('dashboard.index');
-});
+Route::post('/', [BookingController::class , 'store'])->name('booking.create');
 
-Route::get('/confirmation', function () {
-    return view('landing.ticket');
-});
+Route::get('/confirmation', [ConfirmationController::class , 'index']);
 
-Route::get('/ticket-record', function () {
-    return view('landing.record');
-});
+Route::get('/ticket-record', [RecordController::class , 'index']);
 
-
+Route::get('/dashboard', [DashboardController::class , 'index']);
