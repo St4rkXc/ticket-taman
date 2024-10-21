@@ -1,26 +1,18 @@
 <?php
+use App\Http\Controllers\BookingController;
+use App\Http\Controllers\ConfirmationController;
+use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\RecordController;
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\TicketBookingController;
 
-// Route for booking tickets
-Route::post('/book-ticket', [TicketBookingController::class, 'store'])->name('ticket.store');
 
-// Landing page route
-Route::get('/', function () {
-    return view('landing.index');
-});
+//BOOKING SECTION
+Route::get('/', [BookingController::class , 'index']);
 
-// Dashboard route
-Route::get('/dashboard', function () {
-    return view('dashboard.index');
-});
+Route::post('/', [BookingController::class , 'store'])->name('booking.create');
 
-// Confirmation page route
-Route::get('/confirmation', function () {
-    return view('landing.ticket');
-});
+Route::get('/confirmation', [ConfirmationController::class , 'index']);
 
-// Ticket record page route
-Route::get('/ticket-record', function () {
-    return view('landing.record');
-});
+Route::get('/ticket-record', [RecordController::class , 'index']);
+
+Route::get('/dashboard', [DashboardController::class , 'index']);

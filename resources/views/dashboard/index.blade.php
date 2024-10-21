@@ -35,11 +35,11 @@
       </div>
 
       {{-- Jumlah Booking --}}
-      <section class="p-8 border border-gray-200 rounded-lg">
+      <section class="p-8 border border-gray-200 rounded-lg shadow-lg">
          <div class="flex justify-between items-center">
             <div class="hidden md:block">
                <p class="text-xl text-text font-bold">Jumlah Booking</p>
-               <p class="text-xxs text-text/60 font-light">Jumlah Pengunjung yang datang minggu terakhir</p>
+               <p class="text-xxs text-text/60 font-base">Jumlah Pengunjung yang datang minggu terakhir</p>
             </div>
             <div class="text-start md:text-end">
                <p class="text-price text-text font-bold leading-none">198</p>
@@ -48,11 +48,13 @@
          </div>
          <canvas id="bookChart" class="max-h-[350px] mt-4"></canvas>
       </section>
+
+      {{-- * Sec chart  --}}
       <section class="grid grid-cols-1 xl:grid-cols-2 gap-4">
-         <div class="bg-text p-6 rounded-lg">
+         <div class="bg-text p-6 rounded-lg shadow-xl">
             <div>
-               <p class="text-xl text-white font-bold">Jumlah Booking</p>
-               <p class="text-xxs text-white/60 font-light">Jumlah Pengunjung yang datang minggu terakhir</p>
+               <p class="text-xl text-white font-bold">Rincian Booking</p>
+               <p class="text-xxs text-white/60 font-base">Detail dari setiap booking</p>
             </div>
             <div>
                <ul class="list-none mt-6">
@@ -115,7 +117,7 @@
             </div>
          </div>
          
-         <div class="bg-primary p-6 rounded-lg flex flex-col justify-center items-center mb-16 xl:mb-0">
+         <div class="bg-primary p-6 rounded-lg flex flex-col justify-center items-center mb-16 xl:mb-0 shadow-lg">
             <div class="flex flex-col justify-center items-center">
                <p class="text-text text-pricexl font-bold">304</p>
                <p class="text-text text-base font-semibold">Total Pengunjung Hari Ini</p>
