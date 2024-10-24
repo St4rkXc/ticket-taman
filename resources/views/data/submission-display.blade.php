@@ -40,8 +40,12 @@
                </div>
             </div>
             <div class="flex flex-col gap-4 mt-4 p-3 lg:mt-0">
-                  <button class="btn-primary w-full block text-center" type="submit">Book Ticket</>
-                  <button class="btn-secondary w-full text-text block text-center" href="/">Cancel Booking</>
+                  <form action="">
+                     <button class="btn-primary w-full block text-center" type="submit">Book Ticket</>
+                  </form>
+                  <form action="">
+                     <button class="btn-secondary w-full text-text block text-center" href="/">Cancel Booking</>
+                  </form>
                </form>
             </div>
          </div>
