@@ -5,13 +5,25 @@ export default {
         "./resources/**/*.js",
         "./resources/**/*.vue",
     ],
+    daisyui: {
+        themes: [
+            {
+                mytheme: {
+                    primary: "#D1FA94",
+                    secondary: "#272727",
+                    "base-100": "#f5f6f6" /* background image */,
+                },
+            },
+            "dark",
+        ],
+    },
     theme: {
         extend: {
             colors: {
                 primary: "#D1FA94",
                 secondary: "#272727",
                 text: "#212122",
-                white: "#f5f6f6"
+                white: "#f5f6f6",
             },
             fontSize: {
                 xxs: "14px",
@@ -25,5 +37,5 @@ export default {
             },
         },
     },
-    plugins: [],
+    plugins: [require("daisyui")],
 };
