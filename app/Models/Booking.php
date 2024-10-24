@@ -14,5 +14,6 @@ class Booking extends Model
         'adult_count',
         'child_count',
         'booking_date',
+        'total_price',
     ];
 }

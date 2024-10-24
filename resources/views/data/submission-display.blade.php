@@ -16,6 +16,8 @@
                   <img src="{{asset('Images/QR.png')}}" alt="" class="w-[560px]">
                </div>
                <div class="mt-12 space-y-8 text-center lg:text-start">
+                  <form action="{{ route('bookings.store') }}" method="post" class="space-y-5">
+                     @csrf
                   <div>
                      <p class="text-xs text-text/60 font-semibold">Name</p>
                      <p class="text-pricexl text-text font-bold ">{{ $nama }}</p>{{-- Ini di ganti pake nama di form --}}
@@ -37,10 +39,9 @@
                   </div>
                </div>
             </div>
-            <div class="space-y-4 mt-4 p-3 lg:mt-0">
-            <form action="{{ route('booking.store.final') }}" method="post">
-                  <a class="btn-primary w-full block text-center" href="/ticket-record">Book Ticket</a>
-                  <a class="btn-secondary w-full text-text block text-center" href="/">Cancel Booking</a>
+            <div class="flex flex-col gap-4 mt-4 p-3 lg:mt-0">
+                  <button class="btn-primary w-full block text-center" type="submit">Book Ticket</>
+                  <button class="btn-secondary w-full text-text block text-center" href="/">Cancel Booking</>
                </form>
             </div>
          </div>
