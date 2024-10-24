@@ -8,13 +8,12 @@ use Illuminate\Support\Facades\Route;
 Route::prefix('/')
     ->name('bookings.')
     ->group(function() {
-        Route::get('', [BookingController::class, 'index']); // Landing page
+        Route::get('', [BookingController::class, 'index'])->name('index'); // Landing page
 
-        Route::post('/confirmation', [BookingController::class, 'create'])->name('submit'); // Create and go to confirm
+        Route::post('confirmation', [BookingController::class, 'confirm'])->name('confirm'); // Create and go to confirm
 
-        Route::post('/ticket-record', [BookingController::class, 'store'])->name('store'); // Confirm
-        
-        Route::get('/ticket-record', [RecordController::class, 'index']); // Ticket records
-        
-        Route::get('/dashboard', [DashboardController::class, 'index']); // Dashboard
+        Route::post('ticket-save', [BookingController::class, 'save'])->name('save'); // Confirm
+
+        Route::get('ticket-record', [BookingController::class, 'record'])->name('ticket-record'); // Confirm
+ 
     });

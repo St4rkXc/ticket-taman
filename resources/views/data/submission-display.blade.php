@@ -1,5 +1,3 @@
-{{-- DISPLAY SUBMITTED DATA FOR CONFIRMATION --}}
-
 <div class="container mx-auto">
       <div class="text-center">
          <div class="flex justify-center items-center space-x-5">
@@ -16,7 +14,7 @@
                   <img src="{{asset('Images/QR.png')}}" alt="" class="w-[560px]">
                </div>
                <div class="mt-12 space-y-8 text-center lg:text-start">
-                  <form action="{{ route('bookings.store') }}" method="post" class="space-y-5">
+                  <div  class="space-y-5">
                      @csrf
                   <div>
                      <p class="text-xs text-text/60 font-semibold">Name</p>
@@ -40,13 +38,19 @@
                </div>
             </div>
             <div class="flex flex-col gap-4 mt-4 p-3 lg:mt-0">
-                  <form action="">
-                     <button class="btn-primary w-full block text-center" type="submit">Book Ticket</>
+                  <form action="{{route('bookings.save')}}" method="POST">
+                  @csrf
+                     <input type="hidden" value="{{$nama}}" name="nama">
+                     <input type="hidden" value="{{$adult_count}}" name="adult_count">
+                     <input type="hidden" value="{{$child_count}}" name="child_count">
+                     <input type="hidden" value="{{$booking_date}}" name="booking_date">
+                     <input type="hidden" value="{{$total_price}}" name="total_price">
+                     <button class="btn-primary w-full block text-center" type="submit">Book Ticket</button>
                   </form>
-                  <form action="">
-                     <button class="btn-secondary w-full text-text block text-center" href="/">Cancel Booking</>
-                  </form>
-               </form>
+                  <a href="{{ route('bookings.index') }}" class="btn-secondary w-full text-text block text-center">
+                     Cancel Booking
+                  </a>
+               </div>
             </div>
          </div>
       </div>
