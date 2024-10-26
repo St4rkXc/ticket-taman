@@ -123,7 +123,6 @@ return [
     */
 
     'key' => env('APP_KEY'),
-
     'cipher' => 'AES-256-CBC',
 
     /*
@@ -184,5 +183,6 @@ return [
     'aliases' => Facade::defaultAliases()->merge([
         // 'Example' => App\Facades\Example::class,
     ])->toArray(),
+    'timezone' => 'Asia/Makassar', // GANT TIMEZONE YG DIINGINKAN
 
 ];
