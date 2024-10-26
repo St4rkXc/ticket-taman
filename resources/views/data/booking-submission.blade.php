@@ -9,13 +9,12 @@
       </div>
       <form action="{{ route('bookings.confirm') }}" method="post" class="mt-10 space-y-10">
          @csrf
-         <input type="text" name="nama" class="w-full my-input" placeholder="Name">
+         <input type="text" name="nama" class="w-full my-input bg-transparent" placeholder="Name" required>
          <div class="flex flex-col md:flex-row gap-10 md:gap-4">
-            <input type="text" name="adult_count" class="my-input w-full" placeholder="18+ Ages">
-            <input type="text" name="child_count" class="my-input w-full" placeholder="0-18 Ages">
+            <input type="text" name="adult_count" class="my-input w-full bg-transparent" placeholder="18+ Ages" required>
+            <input type="text" name="child_count" class="my-input w-full bg-transparent" placeholder="0-18 Ages" required>
          </div>
-         <input type="text" name="booking_date" id="customDate" class="my-input w-full" placeholder="Booking Time">
-        
+         <input type="date" name="booking_date" id="customDate" class="my-input w-full bg-transparent" placeholder="Booking Time" required>
             <button type="submit" class="btn-primary block w-fit mt-12 font-bold">Book Ticket</></button>
       </form>
    </div>

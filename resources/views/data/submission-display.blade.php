@@ -37,20 +37,20 @@
                   </div>
                </div>
             </div>
-            <div class="flex flex-col gap-4 mt-4 p-3 lg:mt-0">
-                  <form action="{{route('bookings.save')}}" method="POST">
-                  @csrf
-                     <input type="hidden" value="{{$nama}}" name="nama">
-                     <input type="hidden" value="{{$adult_count}}" name="adult_count">
-                     <input type="hidden" value="{{$child_count}}" name="child_count">
-                     <input type="hidden" value="{{$booking_date}}" name="booking_date">
-                     <input type="hidden" value="{{$total_price}}" name="total_price">
-                     <button class="btn-primary w-full block text-center" type="submit">Book Ticket</button>
-                  </form>
-                  <a href="{{ route('bookings.index') }}" class="btn-secondary w-full text-text block text-center">
-                     Cancel Booking
-                  </a>
-               </div>
+         </div>
+         <div class="flex flex-col gap-4 mt-4 p-3 lg:mt-0">
+               <form action="{{route('bookings.save')}}" method="POST">
+               @csrf
+                  <input type="hidden" value="{{$nama}}" name="nama">
+                  <input type="hidden" value="{{$adult_count}}" name="adult_count">
+                  <input type="hidden" value="{{$child_count}}" name="child_count">
+                  <input type="hidden" value="{{$booking_date}}" name="booking_date">
+                  <input type="hidden" value="{{$total_price}}" name="total_price">
+                  <button class="btn-primary w-full block text-center" type="submit">Book Ticket</button>
+               </form>
+               <a href="{{ route('bookings.index') }}" class="btn-secondary w-full text-text block text-center">
+                  Cancel Booking
+               </a>
             </div>
          </div>
       </div>
