@@ -17,7 +17,7 @@
                <input type="text" name="child_count" class="my-input w-full bg-transparent" placeholder="0-18 Ages"
                   required>
             </div>
-            <input type="date" name="booking_date" id="customDate" class="my-input w-full bg-transparent"
+            <input type="text" name="booking_date" id="customDate" class="my-input w-full bg-transparent"
                placeholder="Booking Time" required>
             <button type="submit" class="btn-primary block w-fit mt-12 font-bold">Book Ticket</></button>
          </form>
