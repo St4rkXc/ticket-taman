@@ -26,5 +26,7 @@
 </body>
 @vite('resources/js/app.js')
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script type="module" src="https://unpkg.com/@iconify/iconify/dist/iconify.js"></script>
+
 
 </html>
