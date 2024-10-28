@@ -7,6 +7,7 @@
     <title>Document</title>
 
     @vite('resources/css/app.css')
+    @vite('resources/css/iconify.css')
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
