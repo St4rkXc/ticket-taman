@@ -197,7 +197,7 @@
                     <div class="btn-primary mt-4 w-fit hidden lg:block">View More FAQ</div>
                 </div>
                 <div class="flex flex-col space-y-4">
-                    <div class="collapse collapse-arrow  rounded-none bg-transparent border-b-2">
+                    <div class="collapse collapse-arrow rounded-none bg-transparent border-b-2">
                         <input type="radio" name="my-accordion-2" " />
                                 <div class="collapse-title text-md font-medium md:text-lg flex items-center gap-2"><span class="solar-clock text-xl"></span>What Are the Park’s Opening Hours?</div>
                                 <div class="collapse-content text-xs">
@@ -251,163 +251,163 @@
               </div>
            </section>
 
-           <section id="testimonials">
-              <div class="container mx-auto py-[100px] px-10 md:px-0">
-                 <div class="text-center mb-[56px]">
+        <section id="testimonials">
+            <div class="container mx-auto py-[100px] px-10 md:px-0">
+                <div class="text-center mb-[56px]">
                     <div class="flex flex-col md:flex-row justify-center items-center space-x-5">
-                       <div class="devider-white hidden md:inline-block"></div>
-                       <p class="text-xxs md:text-xs font-semibold text-text">Testimonials</p>
-                       <div class="devider-white block md:inline-block mt-2 md:mt-0"></div>
+                        <div class="devider-white hidden md:inline-block"></div>
+                        <p class="text-xxs md:text-xs font-semibold text-text">Testimonials</p>
+                        <div class="devider-white block md:inline-block mt-2 md:mt-0"></div>
                     </div>
                     <p class="text-[32px] md:text-2xl font-bold text-text">What they say about us</p>
-                 </div>
-                 <div class="swiper card-container">
+                </div>
+                <div class="swiper card-container">
                     <div class="card-content pb-12">
-                       <div class="swiper-wrapper">
-                          <!-- Testimonial 1 -->
-                          <div class="swiper-slide">
-                             <div class="p-6 rounded-xl h-[370px] flex flex-col justify-between border border-text/10">
-                                <div class="flex flex-col gap-4">
-                                   <div class="flex gap-2">
-                                      <div class="flex gap-1">
-                                         <div class="solar-star text-base text-orange-500"></div>
-                                         <div class="solar-star text-base text-orange-500"></div>
-                                         <div class="solar-star text-base text-orange-500"></div>
-                                         <div class="solar-star text-base text-orange-500"></div>
-                                         <div class="solar-star text-base text-orange-500"></div>
-                                      </div>
-                                      <p class="text-xxs text-text/50 font-semibold">(4.8)</p>
-                                   </div>
-                                   <p class="text-text text-xs italic">
-                                      " Visiting the park was a breath of fresh air! The lush greenery and well-maintained
-                            trails made for a perfect family day out. My kids loved the playground, and we enjoyed a lovely
-                            picnic by the lake. We’ll definitely be back!" </p>
-                    </div>
-                    <div class="flex items-center gap-4">
-                        <div class="solar-user text-[40px]"></div>
-                        <div class="flex flex-col">
-                            <p class="text-text text-xs font-semibold">Emily R.</p>
-                            <p class="text-text text-xxs">Mother from 12 Kids</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Testimonial 2 -->
-            <div class="swiper-slide">
-                <div class="p-6 rounded-xl h-[370px] flex flex-col justify-between border border-text/10">
-                    <div class="flex flex-col gap-4">
-                        <div class="flex gap-2">
-                            <div class="flex gap-1">
-                                <div class="solar-star text-base text-orange-500"></div>
-                                <div class="solar-star text-base text-orange-500"></div>
-                                <div class="solar-star text-base text-orange-500"></div>
-                                <div class="solar-star text-base text-orange-500 opacity-40"></div>
-                                <div class="solar-star text-base text-orange-500 opacity-40"></div>
+                        <div class="swiper-wrapper">
+                            <!-- Testimonial 1 -->
+                            <div class="swiper-slide">
+                                <div class="p-6 rounded-xl h-[370px] flex flex-col justify-between border border-text/10">
+                                    <div class="flex flex-col gap-4">
+                                        <div class="flex gap-2">
+                                            <div class="flex gap-1">
+                                                <div class="solar-star text-base text-orange-500"></div>
+                                                <div class="solar-star text-base text-orange-500"></div>
+                                                <div class="solar-star text-base text-orange-500"></div>
+                                                <div class="solar-star text-base text-orange-500"></div>
+                                                <div class="solar-star text-base text-orange-500"></div>
+                                            </div>
+                                            <p class="text-xxs text-text/50 font-semibold">(4.8)</p>
+                                        </div>
+                                        <p class="text-text text-xs italic">
+                                            " Visiting the park was a breath of fresh air! The lush greenery and well-maintained
+                                            trails made for a perfect family day out. My kids loved the playground, and we enjoyed a lovely
+                                            picnic by the lake. We’ll definitely be back!" </p>
+                                    </div>
+                                    <div class="flex items-center gap-4">
+                                        <div class="solar-user text-[40px]"></div>
+                                        <div class="flex flex-col">
+                                            <p class="text-text text-xs font-semibold">Emily R.</p>
+                                            <p class="text-text text-xxs">Mother from 12 Kids</p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <p class="text-xxs text-text/50 font-semibold">(4.2)</p>
-                        </div>
-                        <p class="text-text text-xs italic">
-                            "The park is nice, but it can get crowded on weekends. The trails are lovely, but I wish there
-                            were more picnic spots."
-                        </p>
-                    </div>
-                    <div class="flex items-center gap-4">
-                        <div class="solar-user text-[40px]"></div>
-                        <div class="flex flex-col">
-                            <p class="text-text text-xs font-semibold">John D.</p>
-                            <p class="text-text text-xxs">Single Father</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Testimonial 3 -->
-            <div class="swiper-slide">
-                <div class="p-6 rounded-xl h-[370px] flex flex-col justify-between border border-text/10">
-                    <div class="flex flex-col gap-4">
-                        <div class="flex gap-2">
-                            <div class="flex gap-1">
-                                <div class="solar-star text-base text-orange-500"></div>
-                                <div class="solar-star text-base text-orange-500"></div>
-                                <div class="solar-star text-base text-orange-500"></div>
-                                <div class="solar-star text-base text-orange-500"></div>
-                                <div class="solar-star text-base text-orange-500 opacity-40"></div>
+                            <!-- Testimonial 2 -->
+                            <div class="swiper-slide">
+                                <div class="p-6 rounded-xl h-[370px] flex flex-col justify-between border border-text/10">
+                                    <div class="flex flex-col gap-4">
+                                        <div class="flex gap-2">
+                                            <div class="flex gap-1">
+                                                <div class="solar-star text-base text-orange-500"></div>
+                                                <div class="solar-star text-base text-orange-500"></div>
+                                                <div class="solar-star text-base text-orange-500"></div>
+                                                <div class="solar-star text-base text-orange-500 opacity-40"></div>
+                                                <div class="solar-star text-base text-orange-500 opacity-40"></div>
+                                            </div>
+                                            <p class="text-xxs text-text/50 font-semibold">(4.2)</p>
+                                        </div>
+                                        <p class="text-text text-xs italic">
+                                            "The park is nice, but it can get crowded on weekends. The trails are lovely, but I wish there
+                                            were more picnic spots."
+                                        </p>
+                                    </div>
+                                    <div class="flex items-center gap-4">
+                                        <div class="solar-user text-[40px]"></div>
+                                        <div class="flex flex-col">
+                                            <p class="text-text text-xs font-semibold">John D.</p>
+                                            <p class="text-text text-xxs">Single Father</p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <p class="text-xxs text-text/50 font-semibold">(4.4)</p>
-                        </div>
-                        <p class="text-text text-xs italic">
-                            "Overall a good experience, but the bathrooms need improvement. We loved the playground though!"
-                        </p>
-                    </div>
-                    <div class="flex items-center gap-4">
-                        <div class="solar-user text-[40px]"></div>
-                        <div class="flex flex-col">
-                            <p class="text-text text-xs font-semibold">Sarah K.</p>
-                            <p class="text-text text-xxs">Father of 2</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Testimonial 4 -->
-            <div class="swiper-slide">
-                <div class="p-6 rounded-xl h-[370px] flex flex-col justify-between border border-text/10">
-                    <div class="flex flex-col gap-4">
-                        <div class="flex gap-2">
-                            <div class="flex gap-1">
-                                <div class="solar-star text-base text-orange-500"></div>
-                                <div class="solar-star text-base text-orange-500"></div>
-                                <div class="solar-star text-base text-orange-500"></div>
-                                <div class="solar-star text-base text-orange-500"></div>
-                                <div class="solar-star text-base text-orange-500"></div>
+                            <!-- Testimonial 3 -->
+                            <div class="swiper-slide">
+                                <div class="p-6 rounded-xl h-[370px] flex flex-col justify-between border border-text/10">
+                                    <div class="flex flex-col gap-4">
+                                        <div class="flex gap-2">
+                                            <div class="flex gap-1">
+                                                <div class="solar-star text-base text-orange-500"></div>
+                                                <div class="solar-star text-base text-orange-500"></div>
+                                                <div class="solar-star text-base text-orange-500"></div>
+                                                <div class="solar-star text-base text-orange-500"></div>
+                                                <div class="solar-star text-base text-orange-500 opacity-40"></div>
+                                            </div>
+                                            <p class="text-xxs text-text/50 font-semibold">(4.4)</p>
+                                        </div>
+                                        <p class="text-text text-xs italic">
+                                            "Overall a good experience, but the bathrooms need improvement. We loved the playground though!"
+                                        </p>
+                                    </div>
+                                    <div class="flex items-center gap-4">
+                                        <div class="solar-user text-[40px]"></div>
+                                        <div class="flex flex-col">
+                                            <p class="text-text text-xs font-semibold">Sarah K.</p>
+                                            <p class="text-text text-xxs">Father of 2</p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <p class="text-xxs text-text/50 font-semibold">(5.0)</p>
-                        </div>
-                        <p class="text-text text-xs italic">
-                            "Absolutely loved our day at the park! The staff were friendly, and everything was clean. Highly
-                            recommend!"
-                        </p>
-                    </div>
-                    <div class="flex items-center gap-4">
-                        <div class="solar-user text-[40px]"></div>
-                        <div class="flex flex-col">
-                            <p class="text-text text-xs font-semibold">Lucas W.</p>
-                            <p class="text-text text-xxs">Single Person</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Testimonial 5 -->
-            <div class="swiper-slide">
-                <div class="p-6 rounded-xl h-[370px] flex flex-col justify-between border border-text/10">
-                    <div class="flex flex-col gap-4">
-                        <div class="flex gap-2">
-                            <div class="flex gap-1">
-                                <div class="solar-star text-base text-orange-500"></div>
-                                <div class="solar-star text-base text-orange-500"></div>
-                                <div class="solar-star text-base text-orange-500"></div>
-                                <div class="solar-star text-base text-orange-500 opacity-40"></div>
-                                <div class="solar-star text-base text-orange-500 opacity-40"></div>
+                            <!-- Testimonial 4 -->
+                            <div class="swiper-slide">
+                                <div class="p-6 rounded-xl h-[370px] flex flex-col justify-between border border-text/10">
+                                    <div class="flex flex-col gap-4">
+                                        <div class="flex gap-2">
+                                            <div class="flex gap-1">
+                                                <div class="solar-star text-base text-orange-500"></div>
+                                                <div class="solar-star text-base text-orange-500"></div>
+                                                <div class="solar-star text-base text-orange-500"></div>
+                                                <div class="solar-star text-base text-orange-500"></div>
+                                                <div class="solar-star text-base text-orange-500"></div>
+                                            </div>
+                                            <p class="text-xxs text-text/50 font-semibold">(5.0)</p>
+                                        </div>
+                                        <p class="text-text text-xs italic">
+                                            "Absolutely loved our day at the park! The staff were friendly, and everything was clean. Highly
+                                            recommend!"
+                                        </p>
+                                    </div>
+                                    <div class="flex items-center gap-4">
+                                        <div class="solar-user text-[40px]"></div>
+                                        <div class="flex flex-col">
+                                            <p class="text-text text-xs font-semibold">Lucas W.</p>
+                                            <p class="text-text text-xxs">Single Person</p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <p class="text-xxs text-text/50 font-semibold">(4.1)</p>
+                            <!-- Testimonial 5 -->
+                            <div class="swiper-slide">
+                                <div class="p-6 rounded-xl h-[370px] flex flex-col justify-between border border-text/10">
+                                    <div class="flex flex-col gap-4">
+                                        <div class="flex gap-2">
+                                            <div class="flex gap-1">
+                                                <div class="solar-star text-base text-orange-500"></div>
+                                                <div class="solar-star text-base text-orange-500"></div>
+                                                <div class="solar-star text-base text-orange-500"></div>
+                                                <div class="solar-star text-base text-orange-500 opacity-40"></div>
+                                                <div class="solar-star text-base text-orange-500 opacity-40"></div>
+                                            </div>
+                                            <p class="text-xxs text-text/50 font-semibold">(4.1)</p>
+                                        </div>
+                                        <p class="text-text text-xs italic">
+                                            "The park has potential, but the facilities could use some updates. We still had a nice time!"
+                                        </p>
+                                    </div>
+                                    <div class="flex items-center gap-4">
+                                        <div class="solar-user text-[40px]"></div>
+                                        <div class="flex flex-col">
+                                            <p class="text-text text-xs font-semibold">Olivia M.</p>
+                                            <p class="text-text text-xxs">Group fo Friends</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <p class="text-text text-xs italic">
-                            "The park has potential, but the facilities could use some updates. We still had a nice time!"
-                        </p>
-                    </div>
-                    <div class="flex items-center gap-4">
-                        <div class="solar-user text-[40px]"></div>
-                        <div class="flex flex-col">
-                            <p class="text-text text-xs font-semibold">Olivia M.</p>
-                            <p class="text-text text-xxs">Group fo Friends</p>
-                        </div>
+                        <div class="swiper-scrollbar"></div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="swiper-scrollbar"></div>
-        </div>
-        </div>
-        </div>
-    </section>
+        </section>
 
     <section id="CTA">
         <div class="flex justify-center flex-col items-center h-[500px] p-4 md:p-0"
