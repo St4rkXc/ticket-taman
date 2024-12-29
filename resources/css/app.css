@@ -1,3 +1,75 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .devider {
+        height: 1px;
+        width: 120px;
+        background-color: white;
+        border-radius: 32px;
+        display: inline-block;
+    }
+    .devider-white {
+        height: 1px;
+        width: 120px;
+        background-color: #272727;
+        border-radius: 32px;
+        display: inline-block;
+    }
+    .btn-primary {
+        @apply px-[32px] py-[12px] text-text bg-primary font-semibold;
+    }
+    .btn-primary:hover {
+        @apply bg-[#B8FF4D] duration-200 ease-linear;
+    }
+    .btn-secondary {
+        @apply px-[32px] py-[12px] text-white border border-primary  font-semibold;
+    }
+    .btn-secondary:hover {
+        @apply bg-primary text-black duration-200 ease-linear;
+    }
+
+    .my-input {
+        /* @apply border-b-2 border-b-black pb-6 pl-3 placeholder:text-black placeholder:font-semibold placeholder:font-base */
+        border-bottom: 2px solid black;
+        padding-bottom: 24px;
+        padding-left: 12px;
+    }
+    .my-input::placeholder {
+        @apply text-text font-semibold text-xs md:text-base;
+    }
+}
+
+input {
+    background: transparent !important;
+}
+
+input:focus {
+    outline: none;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s;
+    -webkit-text-fill-color: black !important;
+}
+
+
+/* *Swiper */
+.swiper-scrollbar {
+    width: 100%;
+    height: 7px !important;
+    background-color: rgba(159, 204, 197, 0.1) !important;
+    color: #d1fa94 !important;
+}
+
+.swiper-scrollbar-drag {
+    background: #d1fa94 !important;
+}
